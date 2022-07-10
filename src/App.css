@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+.parent {
+  width: 80vh;
+  height: 50vh;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.child {
+  width: 60vh;
+  height: 40vh;
+margin: auto;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
